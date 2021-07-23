@@ -1,8 +1,13 @@
 import React from 'react';
 import * as S from './styled'
-// import { Container } from './styles';
+import {useHistory} from 'react-router-dom';
 
-function produtos() {
+export default function Produtos() {
+  const history =useHistory();
+  const HandleBack = () => {
+    history.push ("/")
+  }
+
   return <S.Container>
   <S.Title>Gestão de produtos</S.Title>
   <S.Intro>Seção para adição de produtos no LocalStorager.</S.Intro>
@@ -29,7 +34,7 @@ function produtos() {
     <S.Inpunt placeholder ="Estoque em números inteiros" type="numb"/>
 
     <S.Botoes>
-      <S.Back type="button">Voltar</S.Back>
+      <S.Back type="button" onClick ={HandleBack}>Voltar</S.Back>
       <S.Adicionar type ="submit">Adicionar Produto</S.Adicionar>
     </S.Botoes>
     </S.Formulario>
@@ -37,4 +42,3 @@ function produtos() {
   </S.Container>;
 }
 
-export default produtos;

@@ -5,8 +5,12 @@ import { useHistory } from 'react-router-dom';
 
 
 
-export default function clientes() {
+export default function Clientes() {
 
+  const history = useHistory();
+  const HandleBack = () => {
+    history.push ("/")
+  }
 
   
 
@@ -30,7 +34,7 @@ export default function clientes() {
           <S.Inpunt placeholder="Digite somente os números"  type="tel" required/>
 
           <S.Botoes>
-        <S.Back type="button">Voltar</S.Back>
+        <S.Back type="button" onClick={HandleBack}>Voltar</S.Back>
         <S.Adicionar type="submit">Adicionar Cliente</S.Adicionar>
         </S.Botoes>
 
