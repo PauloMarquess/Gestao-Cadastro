@@ -5,6 +5,7 @@ width: 100%;
 height: 94vh;
 background: #dbdbe9;
 padding-top: 25px;
+font-family: "Nunito", sans-serif;
 
 `
 

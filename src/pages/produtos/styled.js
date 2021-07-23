@@ -6,6 +6,7 @@ export const Container =styled.div`
 width: 100%;
 height: 100vh;
 font-family: "Nunito", sans-serif;
+
 `
 
 export const Title =styled.h1 `
@@ -23,7 +24,6 @@ align-items: center;
 font-size: 1.5rem;
 color: #333347;
 `
-
 export const ContainerFor =styled.div`
 
 display: grid;
@@ -32,7 +32,6 @@ align-items: center;
 padding: 10px;
 
 `
-
 
 
 export const Formulario =styled.form`
@@ -45,7 +44,19 @@ padding: 10px;
 font-size: 1.5rem;
 
 `
+export const Select = styled.select`
+  width: 100%;
+  height: 2.5rem;
+  font-family: "Nunito", sans-serif;
+  font-size: 1.2rem;
+  border-radius: 1rem;
+  border: 1px solid #055f89;
+  padding: 0.5rem 1rem;
 
+  &:focus {
+    outline: none;
+  }
+`;
 
 export const Botoes =styled.div`
 justify-content: center;
@@ -54,7 +65,9 @@ justify-content: space-space-around;
 margin: 10px;
 padding-top: 10px;
 padding-bottom: 20px;
+
 `
+
 export const Back =styled.button`
 margin-right: 30px;
 width: 160px;
@@ -80,6 +93,7 @@ cursor: pointer;
 
 
 `
+
 export const Label =styled.label`
 padding: 15px;
 `
