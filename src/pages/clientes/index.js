@@ -66,7 +66,7 @@ export default function Clientes() {
             <S.Back type="button" onClick={HandleBack}>
               Voltar
             </S.Back>
-            <S.Back type="submit" >Adicionar Cliente</S.Back>
+            <S.Adicionar type="submit" >Adicionar Cliente</S.Adicionar>
           </S.Botoes>
         </S.Formulario>
       </S.ContainerFor>

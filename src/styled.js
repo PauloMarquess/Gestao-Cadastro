@@ -5,6 +5,7 @@ export const Container =styled.div`
 width: 100%;
 height: 100vh;
 background: white;
+
 padding-top: 25px;
 font-family: "Nunito", sans-serif;
 
@@ -40,7 +41,7 @@ width: 200px;
 height: 60px;
 border-radius:40px ;
 margin-right: 15px;
-background: #333347;
+background: #23aae2;
 color:white;
 font-weight: bold;
 cursor: pointer;
@@ -51,7 +52,7 @@ width: 200px;
 height: 60px;
 border-radius:40px ;
 margin-right: 15px;
-background: #022d3d;
+background: #f69991;
 color: white;
 font-weight: bold;
 cursor: pointer;
@@ -59,3 +60,16 @@ cursor: pointer;
 
 `
 
+export const Logo =styled.img`
+width:300px;
+height: 200px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+`
+export const Cetro =styled.div  `
+display: flex;
+justify-content: center;
+padding: 20px;
+`
