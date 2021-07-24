@@ -33,6 +33,7 @@ margin-bottom: -10px;
 export const Botoes =styled.div`
 display: flex;
 justify-content: center;
+margin-top: 25px;
 
 
 `
@@ -45,6 +46,8 @@ background: #23aae2;
 color:white;
 font-weight: bold;
 cursor: pointer;
+border: none;
+font-size: 1.2rem;
 
 `
 export const BotaoP =styled.button`
@@ -56,6 +59,8 @@ background: #f69991;
 color: white;
 font-weight: bold;
 cursor: pointer;
+border: none;
+font-size: 1.2rem;
 
 
 `
