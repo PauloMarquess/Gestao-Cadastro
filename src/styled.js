@@ -16,7 +16,7 @@ display:flex;
 justify-content: center;
 text-align: center;
 align-items: center;
-font-size: 4rem;
+font-size: 3.5rem;
 
 `
 
@@ -29,6 +29,7 @@ margin-left: auto;
 margin-right: auto;
 font-size: 1.5rem;
 margin-bottom: -10px;
+color: #777575;
 `
 export const Botoes =styled.div`
 display: flex;
